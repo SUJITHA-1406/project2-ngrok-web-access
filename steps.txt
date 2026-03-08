@@ -1,0 +1,16 @@
+Install ngrok
+
+sudo apt update
+sudo apt install ngrok
+
+Add authentication token
+
+ngrok config add-authtoken YOUR_TOKEN
+
+Start web server
+
+sudo service apache2 start
+
+Run ngrok
+
+ngrok http 80
